@@ -209,12 +209,22 @@ header p :hover {
 @media (max-width:470px){
     div.testo_card3 {
         margin: 60px;
+        margin-bottom: 20px;
+    }
+    div.testo_card3 p {
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }        
 
 @media (max-width:360px){
     div.testo_card3 {
         margin: 50px;
+    }
+    
+    div.testo_card3 p {
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }        
   
@@ -813,7 +823,11 @@ footer nav ul :hover {
 }
 
 
-
+@media (max-width:833px) {
+    div.testo_cards {
+        max-width: 100%;
+    }
+}
 
 
 
