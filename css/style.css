@@ -207,17 +207,17 @@ header p :hover {
 } 
 
 @media (max-width:470px){
-
     div.testo_card3 {
-        width: 400px;
-        margin-top: 20px;
-        padding: 0;
-        margin-left: 50px;
+        margin: 60px;
     }
-} 
-        
+}        
 
-    
+@media (max-width:360px){
+    div.testo_card3 {
+        margin: 50px;
+    }
+}        
+  
 
 
 
@@ -555,6 +555,7 @@ header p :hover {
         max-width: 70%;
     }
 }
+
 
 
 
@@ -955,7 +956,7 @@ footer nav ul :hover {
 
 @media (max-width: 449px) {
     .testo_card2 {
-        width: 270px;
+        max-width: 100%;
     }
 }
 
@@ -1077,14 +1078,6 @@ footer nav ul :hover {
     }
    
 }    
-
-@media (max-width: 470px){
-    .testo_cards {
-        width: 80%;
-        margin-left: 60px;
-    }
-   
-}  
 
 
 
@@ -1214,3 +1207,4 @@ section.immagine_fondo img {
         margin-right: 90px;
     }
 }
+
