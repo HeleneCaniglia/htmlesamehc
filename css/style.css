@@ -345,6 +345,7 @@ header p :hover {
 @media (max-width: 449px) {
     .text1 {
         font-size: 23px;
+	justify-items: center;
     }
 }
 
