@@ -206,7 +206,15 @@ header p :hover {
    
 } 
 
+@media (max-width:470px){
 
+    div.testo_card3 {
+        width: 400px;
+        margin-top: 20px;
+        padding: 0;
+        margin-left: 50px;
+    }
+} 
         
 
     
@@ -253,6 +261,7 @@ header p :hover {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 
 .grid .item11 .text {
     background-color: #007F55;
@@ -546,7 +555,6 @@ header p :hover {
         max-width: 70%;
     }
 }
-
 
 
 
@@ -940,14 +948,14 @@ footer nav ul :hover {
 
 @media (max-width:647px){
     .testo_card2{
-        width:390px ;
+        width:380px ;
         padding-bottom: 20px;
     }
 }
 
 @media (max-width: 449px) {
     .testo_card2 {
-        max-width: 100%;
+        width: 270px;
     }
 }
 
@@ -1069,6 +1077,14 @@ footer nav ul :hover {
     }
    
 }    
+
+@media (max-width: 470px){
+    .testo_cards {
+        width: 80%;
+        margin-left: 60px;
+    }
+   
+}  
 
 
 
