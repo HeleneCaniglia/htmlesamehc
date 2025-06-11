@@ -416,6 +416,7 @@ header p :hover {
     padding-top: 20px;
     padding-bottom: 20px;
     justify-items: center;
+    text-align: center;
 }
 
 .item12 a {
