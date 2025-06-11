@@ -260,6 +260,7 @@ header p :hover {
     padding: 20px;
     padding-top: 20px;
     justify-items: center;
+    text-align: center;
 }
 
 .cardricette a {
@@ -345,7 +346,7 @@ header p :hover {
 @media (max-width: 449px) {
     .text1 {
         font-size: 23px;
-	justify-items: center;
+	text-align: center;
     }
 }
 
