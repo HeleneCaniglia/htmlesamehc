@@ -222,7 +222,7 @@ header p :hover {
     color: #007f55;
     font-weight: bold;
     margin-top: 55px;
-    margin-left: 0px;
+    margin-left: 85px;
     font-size: 30px;
 }
 
@@ -346,8 +346,14 @@ header p :hover {
 @media (max-width: 449px) {
     .text1 {
         font-size: 23px;
-	text-align: center;
+        text-align: center;
     }
+
+    .text1 {
+        margin-left: 0px;
+    }
+
+    
 }
 
 
