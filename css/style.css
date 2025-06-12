@@ -3,7 +3,7 @@ html {
 }
 
 body {
-     margin: 0;
+    margin: 0;
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -52,7 +52,6 @@ header nav ul {
     color: white; 
     margin-right: 50px;
 }
-
 
 
 header a {
@@ -829,6 +828,13 @@ footer nav ul :hover {
     }
 }
 
+@media (max-width:473px) {
+    div.testo_cards {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+}
 
 
 
@@ -972,6 +978,14 @@ footer nav ul :hover {
     .testo_card2 {
         max-width: 100%;
     }
+
+    .testo_card1{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: auto;
+    }
+
 }
 
 
@@ -1093,10 +1107,20 @@ footer nav ul :hover {
    
 }    
 
+@media (max-width: 470px) {
+    .card {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
 
+@media (max-width: 470px) {
+    .colonne {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 
-
-
+}
 
 
 
@@ -1221,4 +1245,5 @@ section.immagine_fondo img {
         margin-right: 90px;
     }
 }
+
 
