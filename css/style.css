@@ -1221,7 +1221,6 @@ footer nav ul :hover {
 }
 
 .colonne {
-    columns: 1 90px;
     gap: 90px;
     margin-left: 90px;
     margin-top: 30px;
@@ -1241,7 +1240,6 @@ section.immagine_fondo img {
 
 @media (max-width:847px) {
     .colonne {
-        columns: 1 80px;
         gap: 90px;
         margin-left: 90px;
         margin-top: 80px;
